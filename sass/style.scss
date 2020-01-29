@@ -91,6 +91,21 @@ body {
   }
 }
 
+/* Tags */
+.tags {
+    li {
+        display: inline-block;
+        padding: 0 5px;
+        @for $i from 1 to 6 {
+            .tag-size-#{$i} {
+                font-size: ($i*20/100*18)+18px;
+                line-height: ($i*10/2)+12px;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
 /* Authors */
 
 .authors {

@@ -81,6 +81,42 @@ body {
   display: inline-block;
 }
 
+/* Tags */
+.tags li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.tags li .tag-size-1 {
+  font-size: 21.6px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.tags li .tag-size-2 {
+  font-size: 25.2px;
+  line-height: 22px;
+  text-decoration: none;
+}
+
+.tags li .tag-size-3 {
+  font-size: 28.8px;
+  line-height: 27px;
+  text-decoration: none;
+}
+
+.tags li .tag-size-4 {
+  font-size: 32.4px;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.tags li .tag-size-5 {
+  font-size: 36px;
+  line-height: 37px;
+  text-decoration: none;
+}
+
 /* Authors */
 .authors li {
   margin-bottom: 12px;
